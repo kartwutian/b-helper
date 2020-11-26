@@ -1,0 +1,28 @@
+{
+  "name": "b-helper",
+  "version": "0.1.0",
+  "description": "存放常用通用工具方法",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc",
+    "test": "npm run build && mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/bhz/b-helper.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "bhz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitee.com/bhz/b-helper/issues"
+  },
+  "homepage": "https://gitee.com/bhz/b-helper/blob/master/README.md",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "typescript": "^4.1.2"
+  }
+}
