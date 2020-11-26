@@ -1,4 +1,5 @@
 # b-helper
+[![Build Status](https://travis-ci.org/kartwutian/b-helper.svg?branch=master)](https://travis-ci.org/kartwutian/b-helper)
 
 #### 介绍
 存放常用通用工具方法
