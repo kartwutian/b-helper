@@ -1,11 +1,12 @@
 {
   "name": "b-helper",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "存放常用通用工具方法",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "rm -rf ./dist && tsc",
-    "test": "npm run build && mocha --reporter spec"
+    "test": "npm run build && mocha --reporter spec",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha test/*.js - - -R spec"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,8 @@
   "homepage": "https://github.com/kartwutian/b-helper/blob/master/README.md",
   "devDependencies": {
     "chai": "^4.2.0",
+    "coveralls": "^3.1.0",
+    "istanbul": "^0.4.5",
     "mocha": "^8.2.1",
     "typescript": "^4.1.2"
   }
